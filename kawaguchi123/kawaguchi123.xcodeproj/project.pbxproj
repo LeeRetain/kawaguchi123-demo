@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B43B8E32033A2A400D4EC3E /* MCGCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B43B8E22033A2A300D4EC3E /* MCGCDTimer.swift */; };
 		9B908B98203328AB00772A2B /* ATOMUIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908B95203328AB00772A2B /* ATOMUIActivityIndicatorView.swift */; };
 		9B908B99203328AB00772A2B /* ATOMUIActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B908B96203328AB00772A2B /* ATOMUIActivityIndicatorView.xib */; };
 		9B908B9A203328AB00772A2B /* SHODownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908B97203328AB00772A2B /* SHODownloadViewController.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B43B8E22033A2A300D4EC3E /* MCGCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCGCDTimer.swift; sourceTree = "<group>"; };
 		9B908B95203328AB00772A2B /* ATOMUIActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATOMUIActivityIndicatorView.swift; sourceTree = "<group>"; };
 		9B908B96203328AB00772A2B /* ATOMUIActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATOMUIActivityIndicatorView.xib; sourceTree = "<group>"; };
 		9B908B97203328AB00772A2B /* SHODownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHODownloadViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				9B908B95203328AB00772A2B /* ATOMUIActivityIndicatorView.swift */,
 				9B908B96203328AB00772A2B /* ATOMUIActivityIndicatorView.xib */,
 				9B908B97203328AB00772A2B /* SHODownloadViewController.swift */,
+				9B43B8E22033A2A300D4EC3E /* MCGCDTimer.swift */,
 				9B95EDB3203154D9005E7967 /* image */,
 				9B95ED992031494F005E7967 /* kawaguchiJsonKit */,
 				9B95ED8A20314908005E7967 /* Assets.xcassets */,
@@ -286,6 +289,7 @@
 				9B908B98203328AB00772A2B /* ATOMUIActivityIndicatorView.swift in Sources */,
 				9B95EDA42031525C005E7967 /* UIView+Extension.swift in Sources */,
 				9B95EDA72031525C005E7967 /* UIColor+Extension.swift in Sources */,
+				9B43B8E32033A2A400D4EC3E /* MCGCDTimer.swift in Sources */,
 				9B95EDA62031525C005E7967 /* String+Extenstion.swift in Sources */,
 				9B95ED9E2031494F005E7967 /* ATOMJsonProtocol.swift in Sources */,
 				9B95ED9F2031494F005E7967 /* ATOMJson.swift in Sources */,
