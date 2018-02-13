@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ATOMUIActivityIndicatorView" customModule="SwiftHaveOC" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wmc-RJ-X1y">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="FQW-1g-FOR">
+                            <rect key="frame" x="158" y="303.5" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="7gM-FW-I6D"/>
+                                <constraint firstAttribute="width" constant="60" id="MTP-F4-gW7"/>
+                            </constraints>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="FQW-1g-FOR" firstAttribute="centerY" secondItem="wmc-RJ-X1y" secondAttribute="centerY" id="HWQ-vQ-RHb"/>
+                        <constraint firstItem="FQW-1g-FOR" firstAttribute="centerX" secondItem="wmc-RJ-X1y" secondAttribute="centerX" id="fcu-mb-3sg"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wmc-RJ-X1y" secondAttribute="bottom" id="BX8-Vw-lkp"/>
+                <constraint firstItem="wmc-RJ-X1y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jmp-aQ-Umh"/>
+                <constraint firstAttribute="trailing" secondItem="wmc-RJ-X1y" secondAttribute="trailing" id="mXZ-S7-EMj"/>
+                <constraint firstItem="wmc-RJ-X1y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="qyt-4s-w5V"/>
+            </constraints>
+            <connections>
+                <outlet property="indicatorView" destination="FQW-1g-FOR" id="XoN-Rw-8hl"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B908B98203328AB00772A2B /* ATOMUIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908B95203328AB00772A2B /* ATOMUIActivityIndicatorView.swift */; };
+		9B908B99203328AB00772A2B /* ATOMUIActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B908B96203328AB00772A2B /* ATOMUIActivityIndicatorView.xib */; };
+		9B908B9A203328AB00772A2B /* SHODownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B908B97203328AB00772A2B /* SHODownloadViewController.swift */; };
 		9B95ED8120314908005E7967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95ED8020314908005E7967 /* AppDelegate.swift */; };
 		9B95ED8320314908005E7967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95ED8220314908005E7967 /* ViewController.swift */; };
 		9B95ED8620314908005E7967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B95ED8420314908005E7967 /* Main.storyboard */; };
@@ -47,6 +50,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B908B95203328AB00772A2B /* ATOMUIActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATOMUIActivityIndicatorView.swift; sourceTree = "<group>"; };
+		9B908B96203328AB00772A2B /* ATOMUIActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATOMUIActivityIndicatorView.xib; sourceTree = "<group>"; };
+		9B908B97203328AB00772A2B /* SHODownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHODownloadViewController.swift; sourceTree = "<group>"; };
 		9B95ED7D20314908005E7967 /* kawaguchi123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kawaguchi123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B95ED8020314908005E7967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B95ED8220314908005E7967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +135,9 @@
 				9B95EDD220315625005E7967 /* ATOMMessageCell.swift */,
 				9B95EDD320315625005E7967 /* ATOMMessageInputView.swift */,
 				9B95EDD820315667005E7967 /* SHOTestViewController.swift */,
+				9B908B95203328AB00772A2B /* ATOMUIActivityIndicatorView.swift */,
+				9B908B96203328AB00772A2B /* ATOMUIActivityIndicatorView.xib */,
+				9B908B97203328AB00772A2B /* SHODownloadViewController.swift */,
 				9B95EDB3203154D9005E7967 /* image */,
 				9B95ED992031494F005E7967 /* kawaguchiJsonKit */,
 				9B95ED8A20314908005E7967 /* Assets.xcassets */,
@@ -252,6 +261,7 @@
 				9B95EDC5203154D9005E7967 /* splash_2208h@3x.png in Resources */,
 				9B95EDCB203154D9005E7967 /* splash.png in Resources */,
 				9B95EDCD203154D9005E7967 /* 57x2.png in Resources */,
+				9B908B99203328AB00772A2B /* ATOMUIActivityIndicatorView.xib in Resources */,
 				9B95EDC6203154D9005E7967 /* 40x3.png in Resources */,
 				9B95EDCF203154D9005E7967 /* 57x1.png in Resources */,
 				9B95ED8E20314908005E7967 /* LaunchScreen.storyboard in Resources */,
@@ -273,12 +283,14 @@
 			files = (
 				9B95ED982031493D005E7967 /* ModelObject.swift in Sources */,
 				9B95ED8320314908005E7967 /* ViewController.swift in Sources */,
+				9B908B98203328AB00772A2B /* ATOMUIActivityIndicatorView.swift in Sources */,
 				9B95EDA42031525C005E7967 /* UIView+Extension.swift in Sources */,
 				9B95EDA72031525C005E7967 /* UIColor+Extension.swift in Sources */,
 				9B95EDA62031525C005E7967 /* String+Extenstion.swift in Sources */,
 				9B95ED9E2031494F005E7967 /* ATOMJsonProtocol.swift in Sources */,
 				9B95ED9F2031494F005E7967 /* ATOMJson.swift in Sources */,
 				9B95ED8120314908005E7967 /* AppDelegate.swift in Sources */,
+				9B908B9A203328AB00772A2B /* SHODownloadViewController.swift in Sources */,
 				9B95EDD420315625005E7967 /* ATOMMessageCell.swift in Sources */,
 				9B95ED9D2031494F005E7967 /* ATOMJsonOperation.swift in Sources */,
 				9B95EDD520315625005E7967 /* ATOMMessageInputView.swift in Sources */,
