@@ -48,6 +48,7 @@
 		9B95EDD520315625005E7967 /* ATOMMessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95EDD320315625005E7967 /* ATOMMessageInputView.swift */; };
 		9B95EDD720315646005E7967 /* ATOMMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95EDD620315646005E7967 /* ATOMMessageModel.swift */; };
 		9B95EDD920315668005E7967 /* SHOTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95EDD820315667005E7967 /* SHOTestViewController.swift */; };
+		9BC64CEF203C558600A65976 /* TextUrlLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC64CEE203C558600A65976 /* TextUrlLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		9B95EDD320315625005E7967 /* ATOMMessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATOMMessageInputView.swift; sourceTree = "<group>"; };
 		9B95EDD620315646005E7967 /* ATOMMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATOMMessageModel.swift; sourceTree = "<group>"; };
 		9B95EDD820315667005E7967 /* SHOTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHOTestViewController.swift; sourceTree = "<group>"; };
+		9BC64CEE203C558600A65976 /* TextUrlLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUrlLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 				9B908B96203328AB00772A2B /* ATOMUIActivityIndicatorView.xib */,
 				9B908B97203328AB00772A2B /* SHODownloadViewController.swift */,
 				9B43B8E22033A2A300D4EC3E /* MCGCDTimer.swift */,
+				9BC64CEE203C558600A65976 /* TextUrlLabel.swift */,
 				9B95EDB3203154D9005E7967 /* image */,
 				9B95ED992031494F005E7967 /* kawaguchiJsonKit */,
 				9B95ED8A20314908005E7967 /* Assets.xcassets */,
@@ -301,6 +304,7 @@
 				9B95ED8920314908005E7967 /* kawaguchi123.xcdatamodeld in Sources */,
 				9B95EDB1203152F8005E7967 /* SVWebViewController.m in Sources */,
 				9B95EDD720315646005E7967 /* ATOMMessageModel.swift in Sources */,
+				9BC64CEF203C558600A65976 /* TextUrlLabel.swift in Sources */,
 				9B95EDA52031525C005E7967 /* Date+Extension.swift in Sources */,
 				9B95EDD920315668005E7967 /* SHOTestViewController.swift in Sources */,
 			);
