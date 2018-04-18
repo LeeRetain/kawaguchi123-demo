@@ -48,6 +48,15 @@
 		9B95EDD520315625005E7967 /* ATOMMessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95EDD320315625005E7967 /* ATOMMessageInputView.swift */; };
 		9B95EDD720315646005E7967 /* ATOMMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95EDD620315646005E7967 /* ATOMMessageModel.swift */; };
 		9B95EDD920315668005E7967 /* SHOTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B95EDD820315667005E7967 /* SHOTestViewController.swift */; };
+		9BBC85742082E76500264367 /* ATOMBookBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC85732082E76500264367 /* ATOMBookBuilder.swift */; };
+		9BBC85762082E92B00264367 /* ATOMHomeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC85752082E92B00264367 /* ATOMHomeBuilder.swift */; };
+		9BBC85782082E9B100264367 /* ATOMRecommendedBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC85772082E9B100264367 /* ATOMRecommendedBuilder.swift */; };
+		9BBC857A2082EA3C00264367 /* ATOMBookParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC85792082EA3C00264367 /* ATOMBookParameter.swift */; };
+		9BBC857C2082EAC800264367 /* ATOMHomeParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC857B2082EAC800264367 /* ATOMHomeParameter.swift */; };
+		9BBC857E2082EAF400264367 /* ATOMRecommendedParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC857D2082EAF400264367 /* ATOMRecommendedParameter.swift */; };
+		9BBC85802082EB1100264367 /* ATOMRecommendedOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC857F2082EB1100264367 /* ATOMRecommendedOutput.swift */; };
+		9BBC85822082EB2600264367 /* ATOMHomeOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC85812082EB2600264367 /* ATOMHomeOutput.swift */; };
+		9BBC85842082EB3E00264367 /* ATOMBookOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC85832082EB3E00264367 /* ATOMBookOutput.swift */; };
 		9BC64CEF203C558600A65976 /* TextUrlLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC64CEE203C558600A65976 /* TextUrlLabel.swift */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +106,15 @@
 		9B95EDD320315625005E7967 /* ATOMMessageInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATOMMessageInputView.swift; sourceTree = "<group>"; };
 		9B95EDD620315646005E7967 /* ATOMMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATOMMessageModel.swift; sourceTree = "<group>"; };
 		9B95EDD820315667005E7967 /* SHOTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHOTestViewController.swift; sourceTree = "<group>"; };
+		9BBC85732082E76500264367 /* ATOMBookBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMBookBuilder.swift; sourceTree = "<group>"; };
+		9BBC85752082E92B00264367 /* ATOMHomeBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMHomeBuilder.swift; sourceTree = "<group>"; };
+		9BBC85772082E9B100264367 /* ATOMRecommendedBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMRecommendedBuilder.swift; sourceTree = "<group>"; };
+		9BBC85792082EA3C00264367 /* ATOMBookParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMBookParameter.swift; sourceTree = "<group>"; };
+		9BBC857B2082EAC800264367 /* ATOMHomeParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMHomeParameter.swift; sourceTree = "<group>"; };
+		9BBC857D2082EAF400264367 /* ATOMRecommendedParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMRecommendedParameter.swift; sourceTree = "<group>"; };
+		9BBC857F2082EB1100264367 /* ATOMRecommendedOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMRecommendedOutput.swift; sourceTree = "<group>"; };
+		9BBC85812082EB2600264367 /* ATOMHomeOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMHomeOutput.swift; sourceTree = "<group>"; };
+		9BBC85832082EB3E00264367 /* ATOMBookOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATOMBookOutput.swift; sourceTree = "<group>"; };
 		9BC64CEE203C558600A65976 /* TextUrlLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUrlLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +162,7 @@
 				9B908B97203328AB00772A2B /* SHODownloadViewController.swift */,
 				9B43B8E22033A2A300D4EC3E /* MCGCDTimer.swift */,
 				9BC64CEE203C558600A65976 /* TextUrlLabel.swift */,
+				9BBC85722082E6E900264367 /* test */,
 				9B95EDB3203154D9005E7967 /* image */,
 				9B95ED992031494F005E7967 /* kawaguchiJsonKit */,
 				9B95ED8A20314908005E7967 /* Assets.xcassets */,
@@ -193,6 +212,22 @@
 				9B95EDC2203154D9005E7967 /* splash_1334h@2x.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		9BBC85722082E6E900264367 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				9BBC85732082E76500264367 /* ATOMBookBuilder.swift */,
+				9BBC85752082E92B00264367 /* ATOMHomeBuilder.swift */,
+				9BBC85772082E9B100264367 /* ATOMRecommendedBuilder.swift */,
+				9BBC85792082EA3C00264367 /* ATOMBookParameter.swift */,
+				9BBC857B2082EAC800264367 /* ATOMHomeParameter.swift */,
+				9BBC857D2082EAF400264367 /* ATOMRecommendedParameter.swift */,
+				9BBC85832082EB3E00264367 /* ATOMBookOutput.swift */,
+				9BBC85812082EB2600264367 /* ATOMHomeOutput.swift */,
+				9BBC857F2082EB1100264367 /* ATOMRecommendedOutput.swift */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,11 +322,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BBC85782082E9B100264367 /* ATOMRecommendedBuilder.swift in Sources */,
 				9B95ED982031493D005E7967 /* ModelObject.swift in Sources */,
+				9BBC85822082EB2600264367 /* ATOMHomeOutput.swift in Sources */,
 				9B95ED8320314908005E7967 /* ViewController.swift in Sources */,
 				9B908B98203328AB00772A2B /* ATOMUIActivityIndicatorView.swift in Sources */,
+				9BBC85842082EB3E00264367 /* ATOMBookOutput.swift in Sources */,
 				9B95EDA42031525C005E7967 /* UIView+Extension.swift in Sources */,
 				9B95EDA72031525C005E7967 /* UIColor+Extension.swift in Sources */,
+				9BBC85742082E76500264367 /* ATOMBookBuilder.swift in Sources */,
 				9B43B8E32033A2A400D4EC3E /* MCGCDTimer.swift in Sources */,
 				9B95EDA62031525C005E7967 /* String+Extenstion.swift in Sources */,
 				9B95ED9E2031494F005E7967 /* ATOMJsonProtocol.swift in Sources */,
@@ -299,6 +338,8 @@
 				9B95ED8120314908005E7967 /* AppDelegate.swift in Sources */,
 				9B908B9A203328AB00772A2B /* SHODownloadViewController.swift in Sources */,
 				9B95EDD420315625005E7967 /* ATOMMessageCell.swift in Sources */,
+				9BBC857E2082EAF400264367 /* ATOMRecommendedParameter.swift in Sources */,
+				9BBC85762082E92B00264367 /* ATOMHomeBuilder.swift in Sources */,
 				9B95ED9D2031494F005E7967 /* ATOMJsonOperation.swift in Sources */,
 				9B95EDD520315625005E7967 /* ATOMMessageInputView.swift in Sources */,
 				9B95ED8920314908005E7967 /* kawaguchi123.xcdatamodeld in Sources */,
@@ -307,6 +348,9 @@
 				9BC64CEF203C558600A65976 /* TextUrlLabel.swift in Sources */,
 				9B95EDA52031525C005E7967 /* Date+Extension.swift in Sources */,
 				9B95EDD920315668005E7967 /* SHOTestViewController.swift in Sources */,
+				9BBC857A2082EA3C00264367 /* ATOMBookParameter.swift in Sources */,
+				9BBC857C2082EAC800264367 /* ATOMHomeParameter.swift in Sources */,
+				9BBC85802082EB1100264367 /* ATOMRecommendedOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
